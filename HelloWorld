@@ -14,7 +14,7 @@ int main(){
     cout<<"El primer numero es "<<x<<", el segundo numero es "<<y<<" ...la suma es "<<z<<" la multiplicacion es "<<multiplicacion<<" y la division es "<< division<<endl;
     cout <<b<<endl;
     cout <<s<<endl;
-*/ 
+
 
     //Radio de un círculo
     float radio;
@@ -22,6 +22,25 @@ int main(){
     cin>>radio;
     float area=3.14*pow(radio,2);
     cout<<"El area del circulo de radio "<<radio<<" es "<<area<<endl;
-    
+    //Simbología
+
+    cout <<"hola mundo\n";
+    cout<<" Karen"<<endl;*/
+
+    //ejercicio 1
+    int c=0;
+    string a= "**********";
+    string b= "*        *";
+    cout <<a<<endl;
+
+    while (c<=6){
+        cout<<b<<endl;
+    c=c+1;
+    }
+    cout <<a<<endl;
+
+
+
+
     return 0;
 }
