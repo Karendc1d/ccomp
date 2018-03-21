@@ -1,16 +1,27 @@
 #include <iostream>
-
+#include <string>
+#include <cmath>
 using namespace std;
 
 int main(){
-    int x=13;
-    int y=6;
-    int z=x+y;
+    /*foat x=13;
+    float y=6;
+    float z=x+y;
     int multiplicacion=x*y;
     float division=x/y;
-
+    string b= "Hola mundo";
+    string s= "Hello world";
     cout<<"El primer numero es "<<x<<", el segundo numero es "<<y<<" ...la suma es "<<z<<" la multiplicacion es "<<multiplicacion<<" y la division es "<< division<<endl;
+    cout <<b<<endl;
+    cout <<s<<endl;
+*/ 
 
-
+    //Radio de un círculo
+    float radio;
+    cout<<"Ingrese el radio del circulo:";
+    cin>>radio;
+    float area=3.14*pow(radio,2);
+    cout<<"El area del circulo de radio "<<radio<<" es "<<area<<endl;
+    
     return 0;
 }
