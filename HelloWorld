@@ -1,6 +1,16 @@
 #include <iostream>
+
 using namespace std;
+
 int main(){
-cout<<"Hola munddo"<<endl;
-return 0;
+    int x=13;
+    int y=6;
+    int z=x+y;
+    int multiplicacion=x*y;
+    float division=x/y;
+
+    cout<<"El primer numero es "<<x<<", el segundo numero es "<<y<<" ...la suma es "<<z<<" la multiplicacion es "<<multiplicacion<<" y la division es "<< division<<endl;
+
+
+    return 0;
 }
