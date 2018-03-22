@@ -44,3 +44,30 @@ int main(){
 
     return 0;
 }
+
+
+/*Ejercicio 1 
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+int main(){
+    string a= "**********          ***            *";
+    string d= "*        *        *     *         * *";
+    string b= "*        *       *       *       *   *";
+    string c= "*        *       *       *      *     *";
+    string e= "*        *       *       *     *       *";
+    string f= "*        *        *     *     *         *";
+    string g= "**********          ***      *************";
+
+    cout <<a<<endl;
+    cout <<d<<endl;
+    cout <<b<<endl;
+    cout <<c<<endl;
+    cout <<e<<endl;
+    cout <<f<<endl;
+    cout <<g<<endl;
+
+return 0;}
+*/
