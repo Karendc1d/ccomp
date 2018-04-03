@@ -10,7 +10,7 @@ int main()
     cin>>edad;
     if(edad>0){
         if(edad<=11){
-            cout<<"Usted es un niño(a)"<<endl;
+            cout<<"Usted es un niÃ±o(a)"<<endl;
         }
         if(edad>11&&edad<=15){
             cout<<"Usted es un puberto"<<endl;
@@ -110,8 +110,6 @@ int main()
     }
 
 
-}
-
 //Ejercicio6
 
     int a,i=2;
@@ -145,7 +143,7 @@ int main()
     //Ejercicio8
 
         int c,a,d,b=10000,m=0;
-        cout<<"Ingrese un numero de 5 digitos"<<endl;
+        cout<<"Ingrese un numero de 5 digitos: "<<endl;
         cin>>c;
         a=c;
          while(a>=1){
@@ -186,7 +184,17 @@ int main()
 
     //Ejericcio10
 
-
+    int x,a,b,c;
+    cout<<"Ingrese un numero: "<<endl;
+    a=0;
+    b=1;
+    cout<<a<<","<<b<<","<<endl;
+    for(int i=0;i<=x;i++){
+    c=a+b;
+    a=b;
+    b=c;
+    cout<<c<<",";
+    }
 
 
 
