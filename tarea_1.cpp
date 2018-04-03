@@ -2,38 +2,38 @@
 #include<string>
 using namespace std;
 
-int main()
-{/*
+int main(){
+    /*
     //Ejercicio1
     int edad;
     cout<<"Ingrese su edad en numeros, por favor"<<endl;
     cin>>edad;
     if(edad>0){
         if(edad<=11){
-            cout<<"Usted es un niño(a)"<<endl;
+            cout<<"Usted es un niño(a) y menor de edad"<<endl;
         }
         if(edad>11&&edad<=15){
-            cout<<"Usted es un puberto"<<endl;
+            cout<<"Usted es un puberto y menor de edad"<<endl;
         }
         if(edad>15&&edad<=20){
             cout<<"Usted es adolescente"<<endl;
         }
         if(edad>20&&edad<=29){
-            cout<<"Usted es un adulto joven"<<endl;
+            cout<<"Usted es un adulto joven y mayor de edad"<<endl;
         }
         if(edad>29&&edad<=60){
-            cout<<"Usted es un adulto"<<endl;
+            cout<<"Usted es un adulto y mayor de edad"<<endl;
         }
         if(edad>60){
-            cout<<"Usted es un adulto mayor"<<endl;
+            cout<<"Usted es un adulto mayor y mayor de edad"<<endl;
         }
     }
     else{
         cout<<"Por favor ingrese una edad valida"<<endl;
     }
-
+*/
     //Ejercicio2
-
+/*
 
     int limite,i=0;
     cout<<"Escriba un numero limite": "<<endl;
@@ -43,8 +43,9 @@ int main()
         i++;
         cout<<","<<i;
     }
+    */
 
-
+/*
     //Ejercicio3
     float a,b,c,mayor;
     float promedio;
@@ -64,8 +65,10 @@ int main()
     cout<<"El mayor numero es: "<<mayor<<endl;
     promedio=(a+b+c)/3;
     cout<<"El promedio de los numeros es: "<<promedio<<endl;
-
+    */
+    
     //Ejercicio 4
+    /*
     int a,b;
     cout<<"Ingrese el primero numero: "<<endl;
     cin>>a;
@@ -97,7 +100,8 @@ int main()
         cout<<a<<" al cuadrado no tiene como resultado a "<<b<<endl;
     }
 
-
+*/
+    /*
 //Ejercicio5
     int a;
     cout<<"Ingrese un numero: "<<endl;
@@ -109,9 +113,9 @@ int main()
         cout<<"No es primo"<<endl;
     }
 
-
+*/
 //Ejercicio6
-
+/*
     int a,i=2;
     cout<<"Ingrese el limite: "<<endl;
     cin>>a;
@@ -124,9 +128,10 @@ int main()
         }
         i=i+1;
         }
-
+*/
 
   //Ejercicio7
+ /*
 
     int a,d,b=10000,res;
     cout<<"Ingrese un numero de 5 digitos: "<<endl;
@@ -139,9 +144,11 @@ int main()
         b=b/10;
 
     }
+    */
 
     //Ejercicio8
 
+    /*
         int c,a,d,b=10000,m=0;
         cout<<"Ingrese un numero de 5 digitos: "<<endl;
         cin>>c;
@@ -157,8 +164,10 @@ int main()
         else{
             cout<<c<<" al revez es "<<m<<" por ende NO es palindorme"<<endl;
         }
-
+*/
     //Ejercicio9
+    
+ /*
 
     int a;
     cout<<"Ingrese un anio: "<<endl;
@@ -179,16 +188,18 @@ int main()
         cout<<"El anio no es bisiesto"<<endl;
     }
 
-
+*/
 
 
     //Ejericcio10
-
+/*
+   
     int x,a,b,c;
     cout<<"Ingrese un numero: "<<endl;
+    cin>>x;
     a=0;
     b=1;
-    cout<<a<<","<<b<<","<<endl;
+    cout<<a<<","<<b<<",";
     for(int i=0;i<=x;i++){
     c=a+b;
     a=b;
@@ -196,13 +207,10 @@ int main()
     cout<<c<<",";
     }
 
-
-
-
-
+*/
     //Ejericcio Extra
 
-
+/*
     int n,b,c;
     cout<<"Ingrese un numero: "<<endl;
     cin>>n;
@@ -216,3 +224,4 @@ int main()
 
      return 0;
 }
+*/
