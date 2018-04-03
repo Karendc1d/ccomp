@@ -32,6 +32,9 @@ int main(){
         cout<<"Por favor ingrese una edad valida"<<endl;
     }
 */
+    
+    
+    
     //Ejercicio2
 /*
 
@@ -45,8 +48,10 @@ int main(){
     }
     */
 
-/*
+
+    
     //Ejercicio3
+    /*
     float a,b,c,mayor;
     float promedio;
     cout<<"Ingrese el primer numero: "<<endl;
@@ -66,6 +71,8 @@ int main(){
     promedio=(a+b+c)/3;
     cout<<"El promedio de los numeros es: "<<promedio<<endl;
     */
+    
+    
     
     //Ejercicio 4
     /*
@@ -101,8 +108,13 @@ int main(){
     }
 
 */
-    /*
+   
+    
+    
+    
+    
 //Ejercicio5
+     /*
     int a;
     cout<<"Ingrese un numero: "<<endl;
     cin>>a;
@@ -114,6 +126,11 @@ int main(){
     }
 
 */
+    
+    
+    
+    
+    
 //Ejercicio6
 /*
     int a,i=2;
@@ -129,6 +146,9 @@ int main(){
         i=i+1;
         }
 */
+    
+    
+    
 
   //Ejercicio7
  /*
@@ -146,6 +166,9 @@ int main(){
     }
     */
 
+    
+    
+    
     //Ejercicio8
 
     /*
@@ -165,6 +188,9 @@ int main(){
             cout<<c<<" al revez es "<<m<<" por ende NO es palindorme"<<endl;
         }
 */
+    
+    
+    
     //Ejercicio9
     
  /*
@@ -190,6 +216,8 @@ int main(){
 
 */
 
+    
+    
 
     //Ejericcio10
 /*
@@ -208,6 +236,8 @@ int main(){
     }
 
 */
+    
+    
     //Ejericcio Extra
 
 /*
