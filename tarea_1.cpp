@@ -115,22 +115,23 @@ int main(){
     
 
 //Ejercicio5
-
-    int a;
+ int a,b;
     cout<<"Ingrese un numero: "<<endl;
-    cin>>a;
-    if(a==2||a==3||a==5||a==7||a==11){
-        cout<<"Es primo"<<endl;
-    }
-    else if(a%2!=0&&a%3!=0&&a%5!=0&&a%7!=0&&a%11!=0){
-        cout<<"El numero es primo"<<endl;
-    }
-    else{
-        cout<<"No es primo"<<endl;
-    }
+     cin>>b;
+     a=0;
+     for(int i=1;i<=b;i++){
 
-return 0;
-} 
+
+         if(b%i==0){
+             a++;
+            }
+         if(a!=2){
+            cout<<"No es Primo";
+            }
+         else{
+            cout<<"Si es Primo";
+         }
+}     }
     
     
     
