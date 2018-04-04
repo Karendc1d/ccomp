@@ -136,6 +136,29 @@ return 0;
 }
 
     
+
+
+    int a=0,b;
+     cout<<"Ingrese un numero: "<<endl;
+     cin>>b;
+     int i=1;
+
+     while(i<=b){
+
+         if(b%i==0){
+             a++;
+            }
+         if(a!=2){
+            cout<<"No es Primo"<<endl;
+            }
+         else{
+            cout<<"Si es Primo"<<endl;
+         }
+         i++;
+}
+return 0;
+}
+
     
     
 //Ejercicio6
