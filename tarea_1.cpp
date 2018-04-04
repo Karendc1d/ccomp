@@ -115,7 +115,7 @@ int main(){
     
 
 //Ejercicio5
- int a,b;
+    int a,b;
     cout<<"Ingrese un numero: "<<endl;
      cin>>b;
      a=0;
@@ -125,14 +125,16 @@ int main(){
          if(b%i==0){
              a++;
             }
-         if(a!=2){
+         1if(a!=2){
             cout<<"No es Primo";
             }
          else{
             cout<<"Si es Primo";
          }
-}     }
-    
+}
+return 0;
+}
+
     
     
     
