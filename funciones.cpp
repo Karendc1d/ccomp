@@ -34,8 +34,6 @@ using namespace std;
 //Ejercicio3
     int mayor_menor_promedio(float a,float b,float c){
     float promedio,mayor,menor;
-       int mayor_menor_promedio(float a,float b,float c){
-    float promedio,mayor,menor;
     mayor=((b>a)? b:a);
     mayor=((c>mayor)? c:mayor);
     menor=((c<a)? c:a);
