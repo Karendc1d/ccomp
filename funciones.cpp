@@ -150,6 +150,18 @@ void primos(int b){
             cout<<c<<" al revez es "<<m<<" por ende NO es palindorme"<<endl;
         }
         }
+
+/*
+ do{
+            d=a%10;
+            m=m+(d*b);
+            b=b/10;
+            a=a/10;}
+          while(a>=1);
+
+        cout<<((c==m)? c<<" al revez es "<<m<<" por ende es palindrome":c<<" al revez es "<<m<<" por ende NO es palindorme" );
+        }
+*/
    //Ejercicio9
 
     void bisiesto(int a){
