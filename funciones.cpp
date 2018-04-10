@@ -2,45 +2,30 @@
 #include<string>
 using namespace std;
 
+/*
 //Ejercicio1
     void edad(int edad){
-    if(edad>0){
-        if(edad<=11){
-            cout<<"Usted es un niño(a) y menor de edad"<<endl;
+    cout<<((edad<=18)? "Eres menor de edad":"Eres mayor de edad");
         }
-        if(edad>11&&edad<=15){
-            cout<<"Usted es un puberto y menor de edad"<<endl;
-        }
-        if(edad>15&&edad<=20){
-            cout<<"Usted es adolescente"<<endl;
-        }
-        if(edad>20&&edad<=29){
-            cout<<"Usted es un adulto joven y mayor de edad"<<endl;
-        }
-        if(edad>29&&edad<=60){
-            cout<<"Usted es un adulto y mayor de edad"<<endl;
-        }
-        if(edad>60){
-            cout<<"Usted es un adulto mayor y mayor de edad"<<endl;
-        }
-    }
-    else{
-        cout<<"Por favor ingrese una edad valida"<<endl;
-    }
 
-    }
-
-
+        */
 
 //Ejercicio2
 
-    int limite (int limite){
+    int limite(int limite){
     int i=0;
-    cout<<i;
-    while(i<limite){
-        i++;
-        cout<<","<<i;
-    }
+    while(true){
+        if(i>limite)
+        break;
+        cout<<i++;
+        do{
+            cout<<",";
+            break;
+        }
+        while(i<limite-1);
+        }
+
+
     }
 
 
