@@ -3,7 +3,7 @@
 using namespace std;
 
 void sumar(int &x){
-  x+=1;
+  x++;
 }
 int main(){
   int a=5;
@@ -19,7 +19,7 @@ int main(){
 using namespace std;
 
 int sumar(int x){
-  x+=1;
+  x++;
   return x;
 }
 int main(){
