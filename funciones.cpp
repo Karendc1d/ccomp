@@ -120,16 +120,17 @@ void primos(int b){
 
   //Ejercicio7
 
-    void cinco_digitos(int a){
+ void cinco_digitos(int a){
     int d,b=10000,res;
-    while(b>=0){
+    do{
 
         d=a/b;
         cout<<d<<"  "<<endl;
         a=a%b;
         b=b/10;
 
-    }}
+    }
+    while(b>=0);}
 
 
 
