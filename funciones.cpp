@@ -34,20 +34,17 @@ using namespace std;
 //Ejercicio3
     int mayor_menor_promedio(float a,float b,float c){
     float promedio,mayor,menor;
-    mayor=a;
-    if(b>a){
-        mayor=b;
-    }
-    if(c>a){
-        mayor=c;
-    }
-    menor=b;
-    if(a<b){
-        menor=a;
-    }
-    if(c<b){
-        menor=c;
-    }
+       int mayor_menor_promedio(float a,float b,float c){
+    float promedio,mayor,menor;
+    mayor=((b>a)? b:a);
+    mayor=((c>mayor)? c:mayor);
+    menor=((c<a)? c:a);
+    menor=((b<menor)? b:menor);
+    promedio=(a+b+c)/3;
+    cout<<"El mayor numero es: "<<mayor<<endl;
+    cout<<"El menor numero es: "<<menor<<endl;
+    cout<<"El promedio de los numeros es: "<<promedio<<endl;
+}
     promedio=(a+b+c)/3;
     cout<<"El mayor numero es: "<<mayor<<endl;
     cout<<"El menor numero es: "<<menor<<endl;
