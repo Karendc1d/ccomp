@@ -2,13 +2,12 @@
 #include<string>
 using namespace std;
 
-/*
+
 //Ejercicio1
-    void edad(int edad){
-    cout<<((edad<=18)? "Eres menor de edad":"Eres mayor de edad");
+    bool edad(int edad){
+    cout<<((edad>=18)? "True":"False");
         }
 
-        */
 
 //Ejercicio2
 
@@ -28,26 +27,16 @@ using namespace std;
 
     }
 
-
-
-
 //Ejercicio3
-    int mayor_menor_promedio(float a,float b,float c){
-    float promedio,mayor,menor;
+    int mayor_menor_promedio(float a,float b,float c,int &mayor,int &menor,float &prom){
     mayor=((b>a)? b:a);
     mayor=((c>mayor)? c:mayor);
     menor=((c<a)? c:a);
     menor=((b<menor)? b:menor);
-    promedio=(a+b+c)/3;
-    cout<<"El mayor numero es: "<<mayor<<endl;
-    cout<<"El menor numero es: "<<menor<<endl;
-    cout<<"El promedio de los numeros es: "<<promedio<<endl;
-}
-    promedio=(a+b+c)/3;
-    cout<<"El mayor numero es: "<<mayor<<endl;
-    cout<<"El menor numero es: "<<menor<<endl;
-    cout<<"El promedio de los numeros es: "<<promedio<<endl;
-}
+    prom=(a+b+c)/3;
+    return mayor,menor,prom;
+    }
+
 
 
 
@@ -159,7 +148,7 @@ void primos(int b){
 
         cout<<((c==m)? c<<" al revez es "<<m<<" por ende es palindrome":c<<" al revez es "<<m<<" por ende NO es palindorme" );
         }
-*/
+
    //Ejercicio9
 
     void bisiesto(int a){
@@ -210,20 +199,26 @@ void primos(int b){
     cout<<"El factorial es "<<n<<endl;
 }
 
-
+*/
 int main(){
-    edad(75);
-    limite(10);
-    mayor_menor_promedio(7.0,8.0,4.0);
-    multiplo(8,2);
-    primos(7);
-    primo(5);
-    cinco_digitos(15896);
-    palindrome(12521);
-    bisiesto(2000);
-    fibonacci(5);
-    factorial(5);
+//      edad(19);
+//    limite(10);
+    float prom;
+    int mayor, menor;
+    mayor_menor_promedio(7.0,8.0,4.0,mayor,menor,prom);
+    cout<<menor;
+
+
+
+
+//    multiplo(8,2);
+//    primos(7);
+//    primo(5);
+//    cinco_digitos(15896);
+//    palindrome(12521);
+//    bisiesto(2000);
+//    fibonacci(5);
+//    factorial(5);
 
     return 0;
     }
-
