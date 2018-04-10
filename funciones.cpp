@@ -84,10 +84,12 @@ void primos(int b){
          if(b%i==0){
              a++;
             }
-         cout<<((a!=2)? "No es primo":"Si es primo");
+
          i++;
 }
-    while(i<=b);}
+
+    while(i<=b);
+     cout<<((a!=2)? "No es primo":"Si es primo");}
 //Ejercicio6
 
     void primo(int a){
