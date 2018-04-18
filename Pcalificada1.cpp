@@ -97,7 +97,7 @@ else{
 int main()
 {
     int n;
-    cout<<"Ingrese un límite: ";
+    cout<<"Ingrese un lÃ­mite: ";
     cin>>n;
     cout<<esperfecto(24)<<endl;
     cout<<primo(7);
@@ -106,5 +106,61 @@ int main()
     cout<<potencia(2,3);
 
 return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+
+int suma(int a[]){
+int c=0;
+for(int i=0; a[i]!='\0';i++){
+    c+=a[i];
+}
+return c;
+}
+
+void strcpy(char a[],char b[]){
+for (int i=0; b[i]!='\0';i++){
+    a[i]=b[i];
+}
+cout<<a;
+}
+
+
+
+
+char strcat(char s[],char t[] ){
+int b=0;
+for (int i=0;s[i]!='\0';i++){
+    b++;
+}
+for(int i=0;t[i]!='\0';i++){
+    s[++b]=t[i];
+}
+;
+
+}
+
+int main()
+{
+    char cad1[20]={'1','2','3','4','5'};
+    char cad2[]={'6','7','8','9'};
+    int arr[]={1,2,3,4,5,'\0'};
+
+//    cout<<strcat(cad1,cad2);
+      strcpy(cad1,cad2);
+//    cout<<suma(arr);
+    return 0;
 }
 
