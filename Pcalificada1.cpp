@@ -164,3 +164,30 @@ int main()
     return 0;
 }
 
+
+
+
+
+//Pregunta 1
+//Iterativa
+
+int suma(const int array[],const int largo)
+{
+    long suma=0;
+    for(int i=0;i<largo;suma +=array[i++]);
+        return suma;
+}
+
+//recursiva
+int sumaRecursiva(int array[],int largo)
+{
+    int suma=0;
+    if(largo==1)
+        {
+        suma+=array[0];
+        }
+    else
+        {
+        suma=array[largo-1]+sumaRecursiva(array,largo-1);
+    }
+}
