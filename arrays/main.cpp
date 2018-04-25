@@ -71,33 +71,34 @@ cout<<a;
 }*/
 
 
- //void invertir(int *lista ;int tamanio){
-//    int a;
-//    int *b=(lista+(tamanio-1));
-//    for (ptr>=lista;lista++){
-//         a=*lista;
-//        *lista=*b
-//        *b=g;
-//        b--;
-//    }
-//}
-
+ void invertir(int *lista ,int len){
+    int a;
+    int *b=(lista+len-1);
+    for (;b>=lista;lista++,b--){
+         a=*lista;
+        *lista=*b;
+        *b=a;
+    }
+}
 
 int main()
 {
-    char cad1[20]={'1','2','3','4','5'};
-    char cad2[]={'6','7','8','9'};
-    int arr[]={1,2,3,4,5,6,'\0'};
+    char cad1[20]={'1','2','3','4','5','\0'};
+    char cad2[]={'6','7','8','9','\0'};
+    int arr[]={1,2,3,4,5,6};
 
 
-//    cout<<strcat(cad1,cad2);
+//     strcat(cad1,cad2);
+//     cout<<cad1;
 //    strcpy(cad1,cad2);
-    // invertir(6,arr);
+
+//    invertir(arr,6);
+//    for(int i=0;i<6;i++){
+//        cout<<arr[i];}
+     //cout<<arr;
     // cout<<suma(arr);
     //cout<<sumaRecursiva(arr,6);
     //cout<<tamanio(cad1);
 
     return 0;
 }
-
-
