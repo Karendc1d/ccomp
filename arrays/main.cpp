@@ -92,7 +92,7 @@ int main()
 
 //    cout<<strcat(cad1,cad2);
 //    strcpy(cad1,cad2);
-     invertir(6,arr);
+    // invertir(6,arr);
     // cout<<suma(arr);
     //cout<<sumaRecursiva(arr,6);
     //cout<<tamanio(cad1);
