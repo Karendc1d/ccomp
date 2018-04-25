@@ -55,7 +55,7 @@ using namespace std;
 //return c;
 //
 //}
-
+/*
 void invertir(int tam,int a[]){
 int c=tam-1;
 int b=a[0];
@@ -68,7 +68,19 @@ for (int i=0;a[i]!=tam/2;i++){
 
 }
 cout<<a;
-}
+}*/
+
+
+ //void invertir(int *lista ;int tamanio){
+//    int a;
+//    int *b=(lista+(tamanio-1));
+//    for (ptr>=lista;lista++){
+//         a=*lista;
+//        *lista=*b
+//        *b=g;
+//        b--;
+//    }
+//}
 
 
 int main()
