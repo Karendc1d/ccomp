@@ -2,15 +2,16 @@
 
 using namespace std;
 
-//
-//int suma(int a[]){
-//int c=0;
-//for(int i=0; a[i]!='\0';i++){
-//    c+=a[i];
-//}
-//return c;
-//}
-//
+
+int suma(int *a,const int len){
+    int *ptr=a;
+int c=0;
+for(;ptr<=(a+len-1);ptr++){
+    c+=*ptr;
+    }
+return c;
+}
+
 //int sumaRecursiva(int array[],int largo)
 //{
 //    int suma=0;
@@ -32,19 +33,18 @@ using namespace std;
 // cout<<a;
 //}
 //
-//
-//
-//
-//char strcat(char s[],char t[] ){
-//int b=0;
-//for (int i=0;s[i]!='\0';i++){
-//    b++;
-//}
-//for(int i=0;t[i]!='\0';i++){
-//    s[++b]=t[i];
-//}
-//;
-//
+
+
+
+//void strcat(char s[],char t[] ){
+//    int b=0;
+//    for (int i=0;s[i]!='\0';i++){
+//        b++;
+//    }
+//    for(int i=0;t[i]!='\0';i++){
+//        s[b++]=t[i];
+//    }
+//   cout << s << endl;
 //}
 //
 //int tamanio(char a[]){
@@ -55,23 +55,8 @@ using namespace std;
 //return c;
 //
 //}
-/*
-void invertir(int tam,int a[]){
-int c=tam-1;
-int b=a[0];
-for (int i=0;a[i]!=tam/2;i++){
 
-    a[i]=a[c];
-    a[c]=a[b];
-    c--;
-    b++;
-
-}
-cout<<a;
-}*/
-
-
- void invertir(int *lista ,int len){
+void invertir(int *lista ,int len){
     int a;
     int *b=(lista+len-1);
     for (;b>=lista;lista++,b--){
@@ -83,8 +68,8 @@ cout<<a;
 
 int main()
 {
-    char cad1[20]={'1','2','3','4','5','\0'};
-    char cad2[]={'6','7','8','9','\0'};
+//    char cad1[20]={'1','2','3','4','5','\0'};
+//    char cad2[]={'6','7','8','9','\0'};
     int arr[]={1,2,3,4,5,6};
 
 
@@ -96,7 +81,7 @@ int main()
 //    for(int i=0;i<6;i++){
 //        cout<<arr[i];}
      //cout<<arr;
-    // cout<<suma(arr);
+     cout<<suma(arr,6);
     //cout<<sumaRecursiva(arr,6);
     //cout<<tamanio(cad1);
 
