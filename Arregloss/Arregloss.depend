@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1527430921 source:c:\users\karen\ccomp\arregloss\src\arreglodinamico.cpp
+	"ArregloDinamico.h"
+
+1527430754 c:\users\karen\ccomp\arregloss\include\arreglodinamico.h
+	<string>
+	<iostream>
+	<stdlib.h>
+
+1527430954 source:c:\users\karen\ccomp\arregloss\main.cpp
+	<iostream>
+	<string>
+	"ArregloDinamico.h"
+
