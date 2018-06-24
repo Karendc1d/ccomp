@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1529881593 source:c:\users\karen\codigos_practica\sobrecarga_operadores\main.cpp
+	<iostream>
+	<stdio.h>
+	"persona.h"
+
+1529881835 c:\users\karen\codigos_practica\sobrecarga_operadores\include\persona.h
+
+1529881924 source:c:\users\karen\codigos_practica\sobrecarga_operadores\src\persona.cpp
+	<iostream>
+	<cstring>
+	"persona.h"
+

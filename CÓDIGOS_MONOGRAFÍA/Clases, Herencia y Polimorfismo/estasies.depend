@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1529874390 source:c:\users\karen\codigos_practica\c”digos_monografÕa\herencia y polimorfismo\main.cpp
+	<iostream>
+	<string>
+	"animal.h"
+
+1527803592 c:\users\karen\codigos_practica\c”digos_monografÕa\herencia y polimorfismo\include\animal.h
+	<string>
+	<iostream>
+
